@@ -1,0 +1,8 @@
+sort1 uses: Bubble Sort
+How do you know?: The lower bound time complexity of Bubble Sort (Ω(n)) is more efficient than that of Selection Sort (Ω(n²)). The faster execution time on `sorted50000.txt` suggests `sort1` is Bubble Sort.
+
+sort2 uses: Merge Sort
+How do you know?: It has the shortest execution time (0.452s) when tested on `random50000.txt`, which indicates `sort2` is Merge Sort.
+
+sort3 uses: Selection Sort
+How do you know?: By process of elimination, `sort3` must be Selection Sort as it is the only one remaining.
